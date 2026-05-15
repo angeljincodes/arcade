@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lucky Dragon Arcade — Charlotte, NC</title>
+  <meta name="description" content="Lucky Dragon Arcade in Charlotte, NC. Classic and modern arcade games, tickets, and party bookings on Monroe Rd." />
+  <meta property="og:title" content="Lucky Dragon Arcade" />
+  <meta property="og:description" content="Charlotte's neighborhood arcade on Monroe Rd. Games, tickets, and parties." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">🐉</span>
+        <span class="brand-name">Lucky Dragon Arcade</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#games">Games</a></li>
+        <li><a href="#visit">Visit</a></li>
+        <li><a href="#book">Book</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-inner" id="top">
+      <p class="eyebrow">Charlotte, NC · Monroe Rd</p>
+      <h1>Press start.</h1>
+      <p class="lede">A neighborhood arcade with classic cabinets, modern hits, and room for the whole crew. Walk in to play, or book the place for your next party.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#book">Book a party</a>
+        <a class="btn btn-ghost" href="#visit">Get directions</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="games" class="section">
+      <div class="section-head">
+        <h2>Games &amp; attractions</h2>
+        <p>From quarter-eating classics to the latest racing rigs. Lineup rotates — here's what's usually on the floor.</p>
+      </div>
+      <ul class="game-grid">
+        <li class="game-card">
+          <div class="game-icon" aria-hidden="true">👾</div>
+          <h3>Classic cabinets</h3>
+          <p>Pac-Man, Galaga, Street Fighter II, Mortal Kombat, Donkey Kong.</p>
+        </li>
+        <li class="game-card">
+          <div class="game-icon" aria-hidden="true">🏎️</div>
+          <h3>Racing &amp; sim</h3>
+          <p>Daytona USA, Mario Kart Arcade GP, Initial D, motion-seat racers.</p>
+        </li>
+        <li class="game-card">
+          <div class="game-icon" aria-hidden="true">🕺</div>
+          <h3>Rhythm &amp; dance</h3>
+          <p>DDR, Pump It Up, and a Guitar Hero arcade rig for the brave.</p>
+        </li>
+        <li class="game-card">
+          <div class="game-icon" aria-hidden="true">🎯</div>
+          <h3>Tickets &amp; redemption</h3>
+          <p>Skee-Ball, basketball, hoops, claw machines. Trade tickets for prizes at the counter.</p>
+        </li>
+        <li class="game-card">
+          <div class="game-icon" aria-hidden="true">🎱</div>
+          <h3>Pool &amp; air hockey</h3>
+          <p>Two pool tables and tournament-grade air hockey for low-key competition.</p>
+        </li>
+        <li class="game-card">
+          <div class="game-icon" aria-hidden="true">🥽</div>
+          <h3>VR lounge</h3>
+          <p>Drop into Beat Saber, Superhot, and multiplayer VR shooters by the half hour.</p>
+        </li>
+      </ul>
+      <p class="micro-note">Game lineup is illustrative — actual cabinets vary. Call ahead if you're coming in for a specific title.</p>
+    </section>
+
+    <section id="visit" class="section section-alt">
+      <div class="section-head">
+        <h2>Visit us</h2>
+        <p>Right off Monroe Rd in east Charlotte. Free parking on site.</p>
+      </div>
+
+      <div class="visit-grid">
+        <div class="visit-card">
+          <h3>Address</h3>
+          <p>
+            9524 Monroe Rd<br />
+            Charlotte, NC 28270
+          </p>
+          <a class="link-arrow" href="https://www.google.com/maps/dir/?api=1&destination=9524+Monroe+Rd+Charlotte+NC+28270" target="_blank" rel="noopener">Get directions →</a>
+        </div>
+
+        <div class="visit-card">
+          <h3>Hours</h3>
+          <ul class="hours-list">
+            <li><span>Mon – Thu</span><span>12:00p – 10:00p</span></li>
+            <li><span>Fri</span><span>12:00p – 12:00a</span></li>
+            <li><span>Sat</span><span>11:00a – 12:00a</span></li>
+            <li><span>Sun</span><span>12:00p – 9:00p</span></li>
+          </ul>
+          <p class="micro-note">Hours are placeholders — update before launch.</p>
+        </div>
+
+        <div class="visit-card">
+          <h3>Contact</h3>
+          <p>
+            <a href="mailto:angeljinyi@gmail.com">angeljinyi@gmail.com</a>
+          </p>
+          <p class="micro-note">Phone number coming soon.</p>
+        </div>
+      </div>
+
+      <div class="map-wrap">
+        <iframe
+          title="Map to Lucky Dragon Arcade"
+          src="https://www.google.com/maps?q=9524+Monroe+Rd+Charlotte+NC+28270&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="book" class="section">
+      <div class="section-head">
+        <h2>Book a party or group visit</h2>
+        <p>Birthdays, team events, fundraisers — tell us what you're planning and we'll get back to you.</p>
+      </div>
+
+      <form class="book-form" id="bookForm" action="mailto:angeljinyi@gmail.com" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" required autocomplete="name" />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required autocomplete="email" />
+        </div>
+        <div class="field">
+          <label for="phone">Phone (optional)</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel" />
+        </div>
+        <div class="field">
+          <label for="date">Preferred date</label>
+          <input id="date" name="date" type="date" />
+        </div>
+        <div class="field">
+          <label for="guests">How many guests?</label>
+          <input id="guests" name="guests" type="number" min="1" max="200" />
+        </div>
+        <div class="field field-wide">
+          <label for="message">What are you planning?</label>
+          <textarea id="message" name="message" rows="5" placeholder="Birthday party for a 10-year-old, ~15 kids, want pizza and a game card for each guest…"></textarea>
+        </div>
+        <div class="field-wide form-actions">
+          <button class="btn btn-primary" type="submit">Send request</button>
+          <p class="micro-note">Submitting opens your email app addressed to angeljinyi@gmail.com. We'll swap this for a hosted form (Formspree / Netlify) when you're ready.</p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">🐉</span>
+          <span class="brand-name">Lucky Dragon Arcade</span>
+        </div>
+        <p class="micro-note">9524 Monroe Rd · Charlotte, NC 28270</p>
+      </div>
+      <p class="micro-note">© <span id="year"></span> Lucky Dragon Arcade. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
