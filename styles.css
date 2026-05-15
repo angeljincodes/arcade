@@ -107,8 +107,14 @@ img, iframe { max-width: 100%; }
   border: 1px solid rgba(255, 210, 63, 0.3);
   border-radius: 999px;
 }
+.hero-mark {
+  font-size: clamp(4rem, 11vw, 8rem);
+  line-height: 1;
+  margin: 0 0 8px;
+  filter: drop-shadow(0 8px 24px rgba(255, 46, 126, 0.35));
+}
 .hero-inner h1 {
-  font-size: clamp(2.6rem, 7vw, 5rem);
+  font-size: clamp(3rem, 9vw, 6rem);
   line-height: 1.02;
   letter-spacing: -0.03em;
   margin: 0 0 18px;
@@ -223,45 +229,20 @@ img, iframe { max-width: 100%; }
   display: block;
 }
 
-/* ---------- Form ---------- */
-.book-form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
+/* ---------- Contact ---------- */
+.contact-card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 28px;
+  text-align: center;
 }
-.field { display: flex; flex-direction: column; }
-.field-wide { grid-column: 1 / -1; }
-.field label {
-  font-size: 0.85rem;
-  color: var(--muted);
-  margin-bottom: 6px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+.contact-link {
+  font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+  font-weight: 600;
 }
-.field input,
-.field textarea {
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 12px 14px;
-  color: var(--text);
-  font: inherit;
-  transition: border-color 0.15s ease, box-shadow 0.15s ease;
-}
-.field input:focus,
-.field textarea:focus {
-  outline: none;
-  border-color: var(--neon);
-  box-shadow: 0 0 0 3px rgba(75, 227, 255, 0.18);
-}
-.form-actions { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
 
 @media (max-width: 640px) {
-  .book-form { grid-template-columns: 1fr; padding: 20px; }
   .nav-links { gap: 14px; }
   .hero-inner { padding: 60px 24px 90px; }
 }
